@@ -69,7 +69,6 @@ private CategoryRepository categoryRepository;
         genericProductDto.setPrice(product.getPrice().getPrice());
         genericProductDto.setCategory(product.getCategory().getName());
 
-
         return genericProductDto;
     }
 }
